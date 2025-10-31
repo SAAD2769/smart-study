@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>المساعد الذكي | Smart Study</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🤖 Smart Study Assistant</h1>
+    <p>اسأل المساعد عن أي شيء دراسي</p>
+  </header>
+
+  <main class="ai-container">
+    <div class="chat-box" id="chat-box">
+      <div class="bot-msg">مرحبًا 👋، أنا المساعد الذكي! اسألني عن أي موضوع دراسي.</div>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="اكتب سؤالك هنا..." />
+      <button class="ai-button" onclick="sendMessage()">إرسال</button>
+    </div>
+
+    <button class="back-button" onclick="goBack()">⬅️ عودة</button>
+  </main>
+
+  <footer>
+    <p>© 2025 Smart Study - تم التطوير بواسطة سعد وليد</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

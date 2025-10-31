@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Study</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🧠 Smart Study</h1>
+    <p>تعلم بذكاء، وليس بصعوبة</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>مرحبًا بك في Smart Study</h2>
+      <p>ابدأ رحلة التعلم بطريقة ممتعة وتفاعلية! اختر المادة التي تريدها أدناه 👇</p>
+    </section>
+
+    <section class="subjects">
+      <div class="subject-card" onclick="openLesson('العلوم')">
+        <h3>🔬 العلوم</h3>
+        <p>تعلم المفاهيم العلمية بطريقة ممتعة</p>
+      </div>
+
+      <div class="subject-card" onclick="openLesson('الرياضيات')">
+        <h3>🧮 الرياضيات</h3>
+        <p>اختبر قدراتك في الحساب والتفكير المنطقي</p>
+      </div>
+
+      <div class="subject-card" onclick="openLesson('اللغة العربية')">
+        <h3>📚 اللغة العربية</h3>
+        <p>طور مهاراتك اللغوية والإملائية</p>
+      </div>
+    </section>
+
+    <button class="ai-button" onclick="openAIHelper()">🤖 المساعد الذكي</button>
+  </main>
+
+  <footer>
+    <p>© 2025 Smart Study - تم التطوير بواسطة سعد وليد</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+body {
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+  margin: 0;
+  background: #f6f8fa;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #0078ff;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.subjects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.subject-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subject-card:hover {
+  transform: scale(1.05);
+  background: #e9f3ff;
+}
+
+.ai-button, .back-button {
+  background: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.ai-button:hover, .back-button:hover {
+  background: #005ecb;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  background: #0078ff;
+  color: white;
+}
+
+/* المساعد الذكي */
+.ai-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.chat-box {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-msg, .bot-msg {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.user-msg {
+  background: #daf1ff;
+  align-self: flex-end;
+}
+
+.bot-msg {
+  background: #f0f0f0;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
